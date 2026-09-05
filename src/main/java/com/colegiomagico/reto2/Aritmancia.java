@@ -5,7 +5,7 @@ package com.colegiomagico.reto2;
  */
 public class Aritmancia {
 
-    public static int sumar(int a, int b) {
+    public static int sumar(int numero1, int numero2) {
         return numero1 + numero2; // TODO: Cambia esto
     }
 
