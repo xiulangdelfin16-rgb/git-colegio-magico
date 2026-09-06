@@ -5,8 +5,16 @@ package com.colegiomagico.reto4;
  */
 public class DefensaCondicional {
 
-    public static String evaluar(String hechizo) {
-        return ""; // TODO: Cambia esto
+    public static String evaluar(String hechizo) { 
+         //  (Usé IA, para su solucuion)
+        if (hechizo.equals("Imperius") || hechizo.equals("Crucio")) {
+            return "Maldicion";
+        }  else {
+            return "Permitido";
+
+        }
+
+        
     }
 
     public static void main(String[] args) {
